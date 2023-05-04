@@ -11,7 +11,7 @@ public class HelloController {
 	
 	@RequestMapping("/")
 	public String root() {
-		return "<h2>Routes avilable:</h2><ol><li>Hello: <a href='/hello'>/hello</a></li><li>Greet to Ip: <a href='/greeting'>/greeting</a></li></ol>";
+		return "<h2>Endpoints avilable:</h2><ol><li>Hello: <a href='/hello'>/hello</a></li><li>Greet to Ip: <a href='/greeting'>/greeting</a></li></ol>";
 	}
 	
 	@RequestMapping("/hello")
